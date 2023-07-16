@@ -15,6 +15,9 @@ struct SuperheroView: View {
     @State var isScaling = false // for animation
     @State var isSliding = false //for animation
     
+    //for vibration
+    var hapticImpact = UIImpactFeedbackGenerator(style: .heavy)
+    
     var body: some View {
         ZStack{
             Image(superHero.image)
@@ -31,6 +34,8 @@ struct SuperheroView: View {
                 Button {
                     //some action
                     isAlertPresented.toggle()
+                    hapticImpact.impactOccurred()
+                    playSound(sound: "chimeup", type: "mp3")
                 } label: {
                     HStack{
                         Text("About")

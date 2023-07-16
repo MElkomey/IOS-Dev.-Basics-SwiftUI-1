@@ -7,31 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		841D49062A634E5B002B7D88 /* chimeup.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 841D49052A634E5B002B7D88 /* chimeup.mp3 */; };
-		841D49082A634E76002B7D88 /* PlaySound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841D49072A634E76002B7D88 /* PlaySound.swift */; };
-		84F3A1D32A61FB7B00AB18E8 /* Super_Hero_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F3A1D22A61FB7B00AB18E8 /* Super_Hero_AppApp.swift */; };
-		84F3A1D52A61FB7B00AB18E8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F3A1D42A61FB7B00AB18E8 /* ContentView.swift */; };
-		84F3A1D72A61FB7E00AB18E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84F3A1D62A61FB7E00AB18E8 /* Assets.xcassets */; };
-		84F3A1DA2A61FB7E00AB18E8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84F3A1D92A61FB7E00AB18E8 /* Preview Assets.xcassets */; };
-		84F3A1E12A6202CB00AB18E8 /* SuperheroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F3A1E02A6202CB00AB18E8 /* SuperheroView.swift */; };
-		84F3A1E32A62236600AB18E8 /* Superhero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F3A1E22A62236600AB18E8 /* Superhero.swift */; };
+		841D491C2A63546B002B7D88 /* Business_CardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841D491B2A63546B002B7D88 /* Business_CardApp.swift */; };
+		841D491E2A63546B002B7D88 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841D491D2A63546B002B7D88 /* ContentView.swift */; };
+		841D49202A635470002B7D88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 841D491F2A635470002B7D88 /* Assets.xcassets */; };
+		841D49232A635470002B7D88 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 841D49222A635470002B7D88 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		841D49052A634E5B002B7D88 /* chimeup.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = chimeup.mp3; sourceTree = "<group>"; };
-		841D49072A634E76002B7D88 /* PlaySound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySound.swift; sourceTree = "<group>"; };
-		841D490E2A63519C002B7D88 /* Super-Hero-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Super-Hero-App-Info.plist"; sourceTree = SOURCE_ROOT; };
-		84F3A1CF2A61FB7B00AB18E8 /* Super Hero App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Super Hero App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		84F3A1D22A61FB7B00AB18E8 /* Super_Hero_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Super_Hero_AppApp.swift; sourceTree = "<group>"; };
-		84F3A1D42A61FB7B00AB18E8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		84F3A1D62A61FB7E00AB18E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		84F3A1D92A61FB7E00AB18E8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		84F3A1E02A6202CB00AB18E8 /* SuperheroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperheroView.swift; sourceTree = "<group>"; };
-		84F3A1E22A62236600AB18E8 /* Superhero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Superhero.swift; sourceTree = "<group>"; };
+		841D49182A63546B002B7D88 /* Business Card.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Business Card.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		841D491B2A63546B002B7D88 /* Business_CardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Business_CardApp.swift; sourceTree = "<group>"; };
+		841D491D2A63546B002B7D88 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		841D491F2A635470002B7D88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		841D49222A635470002B7D88 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		84F3A1CC2A61FB7B00AB18E8 /* Frameworks */ = {
+		841D49152A63546B002B7D88 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,82 +32,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		841D49092A63506C002B7D88 /* Sound */ = {
+		841D490F2A63546B002B7D88 = {
 			isa = PBXGroup;
 			children = (
-				841D49052A634E5B002B7D88 /* chimeup.mp3 */,
-			);
-			path = Sound;
-			sourceTree = "<group>";
-		};
-		841D490A2A635078002B7D88 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				84F3A1E22A62236600AB18E8 /* Superhero.swift */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		841D490B2A635094002B7D88 /* Components */ = {
-			isa = PBXGroup;
-			children = (
-				84F3A1E02A6202CB00AB18E8 /* SuperheroView.swift */,
-			);
-			path = Components;
-			sourceTree = "<group>";
-		};
-		841D490C2A6350AD002B7D88 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				84F3A1D22A61FB7B00AB18E8 /* Super_Hero_AppApp.swift */,
-				84F3A1D42A61FB7B00AB18E8 /* ContentView.swift */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		841D490D2A6350BA002B7D88 /* Utilities */ = {
-			isa = PBXGroup;
-			children = (
-				841D49072A634E76002B7D88 /* PlaySound.swift */,
-			);
-			path = Utilities;
-			sourceTree = "<group>";
-		};
-		84F3A1C62A61FB7B00AB18E8 = {
-			isa = PBXGroup;
-			children = (
-				84F3A1D12A61FB7B00AB18E8 /* Super Hero App */,
-				84F3A1D02A61FB7B00AB18E8 /* Products */,
+				841D491A2A63546B002B7D88 /* Business Card */,
+				841D49192A63546B002B7D88 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		84F3A1D02A61FB7B00AB18E8 /* Products */ = {
+		841D49192A63546B002B7D88 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				84F3A1CF2A61FB7B00AB18E8 /* Super Hero App.app */,
+				841D49182A63546B002B7D88 /* Business Card.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		84F3A1D12A61FB7B00AB18E8 /* Super Hero App */ = {
+		841D491A2A63546B002B7D88 /* Business Card */ = {
 			isa = PBXGroup;
 			children = (
-				841D490E2A63519C002B7D88 /* Super-Hero-App-Info.plist */,
-				841D490D2A6350BA002B7D88 /* Utilities */,
-				841D490C2A6350AD002B7D88 /* View */,
-				841D490B2A635094002B7D88 /* Components */,
-				841D490A2A635078002B7D88 /* Model */,
-				841D49092A63506C002B7D88 /* Sound */,
-				84F3A1D62A61FB7E00AB18E8 /* Assets.xcassets */,
-				84F3A1D82A61FB7E00AB18E8 /* Preview Content */,
+				841D491B2A63546B002B7D88 /* Business_CardApp.swift */,
+				841D491D2A63546B002B7D88 /* ContentView.swift */,
+				841D491F2A635470002B7D88 /* Assets.xcassets */,
+				841D49212A635470002B7D88 /* Preview Content */,
 			);
-			path = "Super Hero App";
+			path = "Business Card";
 			sourceTree = "<group>";
 		};
-		84F3A1D82A61FB7E00AB18E8 /* Preview Content */ = {
+		841D49212A635470002B7D88 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				84F3A1D92A61FB7E00AB18E8 /* Preview Assets.xcassets */,
+				841D49222A635470002B7D88 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -124,39 +70,39 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		84F3A1CE2A61FB7B00AB18E8 /* Super Hero App */ = {
+		841D49172A63546B002B7D88 /* Business Card */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 84F3A1DD2A61FB7E00AB18E8 /* Build configuration list for PBXNativeTarget "Super Hero App" */;
+			buildConfigurationList = 841D49262A635470002B7D88 /* Build configuration list for PBXNativeTarget "Business Card" */;
 			buildPhases = (
-				84F3A1CB2A61FB7B00AB18E8 /* Sources */,
-				84F3A1CC2A61FB7B00AB18E8 /* Frameworks */,
-				84F3A1CD2A61FB7B00AB18E8 /* Resources */,
+				841D49142A63546B002B7D88 /* Sources */,
+				841D49152A63546B002B7D88 /* Frameworks */,
+				841D49162A63546B002B7D88 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Super Hero App";
-			productName = "Super Hero App";
-			productReference = 84F3A1CF2A61FB7B00AB18E8 /* Super Hero App.app */;
+			name = "Business Card";
+			productName = "Business Card";
+			productReference = 841D49182A63546B002B7D88 /* Business Card.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		84F3A1C72A61FB7B00AB18E8 /* Project object */ = {
+		841D49102A63546B002B7D88 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1320;
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
-					84F3A1CE2A61FB7B00AB18E8 = {
+					841D49172A63546B002B7D88 = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
 				};
 			};
-			buildConfigurationList = 84F3A1CA2A61FB7B00AB18E8 /* Build configuration list for PBXProject "Super Hero App" */;
+			buildConfigurationList = 841D49132A63546B002B7D88 /* Build configuration list for PBXProject "Business Card" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -164,46 +110,42 @@
 				en,
 				Base,
 			);
-			mainGroup = 84F3A1C62A61FB7B00AB18E8;
-			productRefGroup = 84F3A1D02A61FB7B00AB18E8 /* Products */;
+			mainGroup = 841D490F2A63546B002B7D88;
+			productRefGroup = 841D49192A63546B002B7D88 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				84F3A1CE2A61FB7B00AB18E8 /* Super Hero App */,
+				841D49172A63546B002B7D88 /* Business Card */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		84F3A1CD2A61FB7B00AB18E8 /* Resources */ = {
+		841D49162A63546B002B7D88 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				841D49062A634E5B002B7D88 /* chimeup.mp3 in Resources */,
-				84F3A1DA2A61FB7E00AB18E8 /* Preview Assets.xcassets in Resources */,
-				84F3A1D72A61FB7E00AB18E8 /* Assets.xcassets in Resources */,
+				841D49232A635470002B7D88 /* Preview Assets.xcassets in Resources */,
+				841D49202A635470002B7D88 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		84F3A1CB2A61FB7B00AB18E8 /* Sources */ = {
+		841D49142A63546B002B7D88 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				841D49082A634E76002B7D88 /* PlaySound.swift in Sources */,
-				84F3A1D52A61FB7B00AB18E8 /* ContentView.swift in Sources */,
-				84F3A1D32A61FB7B00AB18E8 /* Super_Hero_AppApp.swift in Sources */,
-				84F3A1E12A6202CB00AB18E8 /* SuperheroView.swift in Sources */,
-				84F3A1E32A62236600AB18E8 /* Superhero.swift in Sources */,
+				841D491E2A63546B002B7D88 /* ContentView.swift in Sources */,
+				841D491C2A63546B002B7D88 /* Business_CardApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		84F3A1DB2A61FB7E00AB18E8 /* Debug */ = {
+		841D49242A635470002B7D88 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -264,7 +206,7 @@
 			};
 			name = Debug;
 		};
-		84F3A1DC2A61FB7E00AB18E8 /* Release */ = {
+		841D49252A635470002B7D88 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -319,20 +261,19 @@
 			};
 			name = Release;
 		};
-		84F3A1DE2A61FB7E00AB18E8 /* Debug */ = {
+		841D49272A635470002B7D88 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Super Hero App/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Business Card/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Super-Hero-App-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -340,7 +281,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Elkomey.Super-Hero-App";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Elkomey.Business-Card";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -348,20 +289,19 @@
 			};
 			name = Debug;
 		};
-		84F3A1DF2A61FB7E00AB18E8 /* Release */ = {
+		841D49282A635470002B7D88 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Super Hero App/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Business Card/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Super-Hero-App-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -369,7 +309,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Elkomey.Super-Hero-App";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Elkomey.Business-Card";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -380,25 +320,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		84F3A1CA2A61FB7B00AB18E8 /* Build configuration list for PBXProject "Super Hero App" */ = {
+		841D49132A63546B002B7D88 /* Build configuration list for PBXProject "Business Card" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				84F3A1DB2A61FB7E00AB18E8 /* Debug */,
-				84F3A1DC2A61FB7E00AB18E8 /* Release */,
+				841D49242A635470002B7D88 /* Debug */,
+				841D49252A635470002B7D88 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		84F3A1DD2A61FB7E00AB18E8 /* Build configuration list for PBXNativeTarget "Super Hero App" */ = {
+		841D49262A635470002B7D88 /* Build configuration list for PBXNativeTarget "Business Card" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				84F3A1DE2A61FB7E00AB18E8 /* Debug */,
-				84F3A1DF2A61FB7E00AB18E8 /* Release */,
+				841D49272A635470002B7D88 /* Debug */,
+				841D49282A635470002B7D88 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 84F3A1C72A61FB7B00AB18E8 /* Project object */;
+	rootObject = 841D49102A63546B002B7D88 /* Project object */;
 }
