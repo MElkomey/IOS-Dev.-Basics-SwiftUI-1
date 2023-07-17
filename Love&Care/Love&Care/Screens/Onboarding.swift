@@ -12,6 +12,9 @@ struct Onboarding: View {
     @AppStorage("isOnboarding") var isOnboarding :Bool = true
     @State var isAnimating :Bool = false
     @State var imageOffset :CGSize = CGSize(width: 0.0, height: 0.0)
+    @State var buttonOffset :CGFloat = 0.0
+    @State var buttonWidth :Double = UIScreen.main.bounds.width - 80
+    let feedback = UINotificationFeedbackGenerator() // another way for vibration by prebuilt enums
     
     //body
     var body: some View {
@@ -21,7 +24,7 @@ struct Onboarding: View {
             VStack{
                 //MARK: - Header
                 VStack{
-                    Text("Care.")
+                    Text(abs(imageOffset.width)>0 ? "Care." : "Love.")
                         .font(.system(size: 60))
                         .foregroundColor(.white)
                     Text("Life doesn't come with manual ,it comes with mother")
@@ -41,6 +44,8 @@ struct Onboarding: View {
                     Image("happy-pregnant")
                         .resizable()
                         .scaledToFit()
+                        .scaleEffect(isAnimating ? 1 : 0.8)
+                        .animation(.easeOut(duration: 0.5), value: isAnimating)
                         .offset(x: imageOffset.width, y: 0)
                         .rotationEffect(.degrees(imageOffset.width/15))
                         .shadow(color: .black.opacity(0.5), radius: 8, x:3, y: 30)
@@ -67,6 +72,7 @@ struct Onboarding: View {
                     
                 }
                 //MARK: - Footer
+                Spacer()
                 ZStack{
                     //background
                     Capsule()
@@ -83,7 +89,7 @@ struct Onboarding: View {
                     HStack{
                         Capsule()
                             .fill(Color("ColorRed"))
-                            .frame(width: 80)
+                            .frame(width: 80 + buttonOffset)
                         Spacer()
                     }//:HStack
                     //dragable circle
@@ -101,8 +107,29 @@ struct Onboarding: View {
                                 .foregroundColor(.white)
                         }//:ZStack
                         .frame(width: 80, alignment: .center)
+                        .offset(x: buttonOffset)
+                        .gesture(DragGesture()
+                                    .onChanged({ gestureValue in
+                            if (gestureValue.translation.width > 0)  && (buttonOffset <= buttonWidth - 80){
+                                buttonOffset = gestureValue.translation.width
+                            }
+                        })
+                                    .onEnded({ _ in
+                            withAnimation(.easeOut(duration: 0.5)) {
+                                if buttonOffset >= buttonWidth/2 {
+                                    isOnboarding = false
+                                    playSound(soundFile: "success", soundType: "m4a")
+                                    feedback.notificationOccurred(.success)
+                                }else{
+                                    buttonOffset = 0.0
+                                    feedback.notificationOccurred(.error)
+                                }
+                            }
+                        })
+                        )
                         Spacer()
                     }//:HStack
+                    
                 }//:ZStack
                 .frame(height: 80, alignment: .center)
                 .padding(.horizontal, 40)
@@ -116,7 +143,7 @@ struct Onboarding: View {
     }
 }
 
-//preview
+preview
 struct OnBoarding_Previews: PreviewProvider {
     static var previews: some View {
         Onboarding()

@@ -7,34 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		843E2F1B2A64AA8C00FA90EA /* PlaySound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843E2F1A2A64AA8C00FA90EA /* PlaySound.swift */; };
-		84CA68262A63630700793A0A /* Love_CareApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CA68252A63630700793A0A /* Love_CareApp.swift */; };
-		84CA68282A63630700793A0A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CA68272A63630700793A0A /* ContentView.swift */; };
-		84CA682A2A63630900793A0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84CA68292A63630900793A0A /* Assets.xcassets */; };
-		84CA682D2A63630900793A0A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84CA682C2A63630900793A0A /* Preview Assets.xcassets */; };
-		84CA68352A6363B200793A0A /* chimeup.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84CA68332A6363B200793A0A /* chimeup.mp3 */; };
-		84CA68362A6363B200793A0A /* success.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 84CA68342A6363B200793A0A /* success.m4a */; };
-		84CA683C2A636E3100793A0A /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CA683B2A636E3100793A0A /* Home.swift */; };
-		84CA683E2A636E4000793A0A /* Onboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CA683D2A636E4000793A0A /* Onboarding.swift */; };
-		84CA68402A637D1500793A0A /* CircleGroubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CA683F2A637D1500793A0A /* CircleGroubView.swift */; };
+		843E2F292A64B00800FA90EA /* NatGeo_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843E2F282A64B00800FA90EA /* NatGeo_AppApp.swift */; };
+		843E2F2B2A64B00800FA90EA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843E2F2A2A64B00800FA90EA /* ContentView.swift */; };
+		843E2F2D2A64B00E00FA90EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 843E2F2C2A64B00E00FA90EA /* Assets.xcassets */; };
+		843E2F302A64B00E00FA90EA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 843E2F2F2A64B00E00FA90EA /* Preview Assets.xcassets */; };
+		843E2F3A2A64CC3400FA90EA /* DrawerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843E2F392A64CC3400FA90EA /* DrawerView.swift */; };
+		843E2F3D2A64CE9800FA90EA /* Cover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843E2F3C2A64CE9800FA90EA /* Cover.swift */; };
+		843E2F402A64CEAD00FA90EA /* CoversData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843E2F3F2A64CEAD00FA90EA /* CoversData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		843E2F1A2A64AA8C00FA90EA /* PlaySound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySound.swift; sourceTree = "<group>"; };
-		84CA68222A63630700793A0A /* Love&Care.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Love&Care.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		84CA68252A63630700793A0A /* Love_CareApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Love_CareApp.swift; sourceTree = "<group>"; };
-		84CA68272A63630700793A0A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		84CA68292A63630900793A0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		84CA682C2A63630900793A0A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		84CA68332A6363B200793A0A /* chimeup.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = chimeup.mp3; sourceTree = "<group>"; };
-		84CA68342A6363B200793A0A /* success.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = success.m4a; sourceTree = "<group>"; };
-		84CA683B2A636E3100793A0A /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
-		84CA683D2A636E4000793A0A /* Onboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding.swift; sourceTree = "<group>"; };
-		84CA683F2A637D1500793A0A /* CircleGroubView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleGroubView.swift; sourceTree = "<group>"; };
+		843E2F252A64B00800FA90EA /* NatGeo App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NatGeo App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		843E2F282A64B00800FA90EA /* NatGeo_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NatGeo_AppApp.swift; sourceTree = "<group>"; };
+		843E2F2A2A64B00800FA90EA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		843E2F2C2A64B00E00FA90EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		843E2F2F2A64B00E00FA90EA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		843E2F362A64B0F100FA90EA /* NatGeo-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "NatGeo-App-Info.plist"; sourceTree = SOURCE_ROOT; };
+		843E2F392A64CC3400FA90EA /* DrawerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawerView.swift; sourceTree = "<group>"; };
+		843E2F3C2A64CE9800FA90EA /* Cover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cover.swift; sourceTree = "<group>"; };
+		843E2F3F2A64CEAD00FA90EA /* CoversData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoversData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		84CA681F2A63630700793A0A /* Frameworks */ = {
+		843E2F222A64B00800FA90EA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -44,115 +39,113 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		84CA68192A63630700793A0A = {
+		843E2F1C2A64B00800FA90EA = {
 			isa = PBXGroup;
 			children = (
-				84CA68242A63630700793A0A /* Love&Care */,
-				84CA68232A63630700793A0A /* Products */,
+				843E2F272A64B00800FA90EA /* NatGeo App */,
+				843E2F262A64B00800FA90EA /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		84CA68232A63630700793A0A /* Products */ = {
+		843E2F262A64B00800FA90EA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				84CA68222A63630700793A0A /* Love&Care.app */,
+				843E2F252A64B00800FA90EA /* NatGeo App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		84CA68242A63630700793A0A /* Love&Care */ = {
+		843E2F272A64B00800FA90EA /* NatGeo App */ = {
 			isa = PBXGroup;
 			children = (
-				84CA683A2A63646600793A0A /* Components */,
-				84CA68392A63645900793A0A /* Screens */,
-				84CA68382A63644F00793A0A /* Sound */,
-				84CA68372A63644700793A0A /* Utilities */,
-				84CA68292A63630900793A0A /* Assets.xcassets */,
-				84CA682B2A63630900793A0A /* Preview Content */,
+				843E2F3E2A64CE9C00FA90EA /* Data */,
+				843E2F3B2A64CE8400FA90EA /* Model */,
+				843E2F382A64CC1700FA90EA /* Components */,
+				843E2F372A64CC0D00FA90EA /* View */,
+				843E2F362A64B0F100FA90EA /* NatGeo-App-Info.plist */,
+				843E2F2C2A64B00E00FA90EA /* Assets.xcassets */,
+				843E2F2E2A64B00E00FA90EA /* Preview Content */,
 			);
-			path = "Love&Care";
+			path = "NatGeo App";
 			sourceTree = "<group>";
 		};
-		84CA682B2A63630900793A0A /* Preview Content */ = {
+		843E2F2E2A64B00E00FA90EA /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				84CA682C2A63630900793A0A /* Preview Assets.xcassets */,
+				843E2F2F2A64B00E00FA90EA /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		84CA68372A63644700793A0A /* Utilities */ = {
+		843E2F372A64CC0D00FA90EA /* View */ = {
 			isa = PBXGroup;
 			children = (
-				843E2F1A2A64AA8C00FA90EA /* PlaySound.swift */,
+				843E2F282A64B00800FA90EA /* NatGeo_AppApp.swift */,
+				843E2F2A2A64B00800FA90EA /* ContentView.swift */,
 			);
-			path = Utilities;
+			path = View;
 			sourceTree = "<group>";
 		};
-		84CA68382A63644F00793A0A /* Sound */ = {
+		843E2F382A64CC1700FA90EA /* Components */ = {
 			isa = PBXGroup;
 			children = (
-				84CA68332A6363B200793A0A /* chimeup.mp3 */,
-				84CA68342A6363B200793A0A /* success.m4a */,
-			);
-			path = Sound;
-			sourceTree = "<group>";
-		};
-		84CA68392A63645900793A0A /* Screens */ = {
-			isa = PBXGroup;
-			children = (
-				84CA68252A63630700793A0A /* Love_CareApp.swift */,
-				84CA68272A63630700793A0A /* ContentView.swift */,
-				84CA683B2A636E3100793A0A /* Home.swift */,
-				84CA683D2A636E4000793A0A /* Onboarding.swift */,
-			);
-			path = Screens;
-			sourceTree = "<group>";
-		};
-		84CA683A2A63646600793A0A /* Components */ = {
-			isa = PBXGroup;
-			children = (
-				84CA683F2A637D1500793A0A /* CircleGroubView.swift */,
+				843E2F392A64CC3400FA90EA /* DrawerView.swift */,
 			);
 			path = Components;
+			sourceTree = "<group>";
+		};
+		843E2F3B2A64CE8400FA90EA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				843E2F3C2A64CE9800FA90EA /* Cover.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		843E2F3E2A64CE9C00FA90EA /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				843E2F3F2A64CEAD00FA90EA /* CoversData.swift */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		84CA68212A63630700793A0A /* Love&Care */ = {
+		843E2F242A64B00800FA90EA /* NatGeo App */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 84CA68302A63630900793A0A /* Build configuration list for PBXNativeTarget "Love&Care" */;
+			buildConfigurationList = 843E2F332A64B00E00FA90EA /* Build configuration list for PBXNativeTarget "NatGeo App" */;
 			buildPhases = (
-				84CA681E2A63630700793A0A /* Sources */,
-				84CA681F2A63630700793A0A /* Frameworks */,
-				84CA68202A63630700793A0A /* Resources */,
+				843E2F212A64B00800FA90EA /* Sources */,
+				843E2F222A64B00800FA90EA /* Frameworks */,
+				843E2F232A64B00800FA90EA /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Love&Care";
-			productName = "Love&Care";
-			productReference = 84CA68222A63630700793A0A /* Love&Care.app */;
+			name = "NatGeo App";
+			productName = "NatGeo App";
+			productReference = 843E2F252A64B00800FA90EA /* NatGeo App.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		84CA681A2A63630700793A0A /* Project object */ = {
+		843E2F1D2A64B00800FA90EA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1320;
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
-					84CA68212A63630700793A0A = {
+					843E2F242A64B00800FA90EA = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
 				};
 			};
-			buildConfigurationList = 84CA681D2A63630700793A0A /* Build configuration list for PBXProject "Love&Care" */;
+			buildConfigurationList = 843E2F202A64B00800FA90EA /* Build configuration list for PBXProject "NatGeo App" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -160,48 +153,45 @@
 				en,
 				Base,
 			);
-			mainGroup = 84CA68192A63630700793A0A;
-			productRefGroup = 84CA68232A63630700793A0A /* Products */;
+			mainGroup = 843E2F1C2A64B00800FA90EA;
+			productRefGroup = 843E2F262A64B00800FA90EA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				84CA68212A63630700793A0A /* Love&Care */,
+				843E2F242A64B00800FA90EA /* NatGeo App */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		84CA68202A63630700793A0A /* Resources */ = {
+		843E2F232A64B00800FA90EA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84CA68362A6363B200793A0A /* success.m4a in Resources */,
-				84CA68352A6363B200793A0A /* chimeup.mp3 in Resources */,
-				84CA682D2A63630900793A0A /* Preview Assets.xcassets in Resources */,
-				84CA682A2A63630900793A0A /* Assets.xcassets in Resources */,
+				843E2F302A64B00E00FA90EA /* Preview Assets.xcassets in Resources */,
+				843E2F2D2A64B00E00FA90EA /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		84CA681E2A63630700793A0A /* Sources */ = {
+		843E2F212A64B00800FA90EA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84CA68282A63630700793A0A /* ContentView.swift in Sources */,
-				843E2F1B2A64AA8C00FA90EA /* PlaySound.swift in Sources */,
-				84CA683C2A636E3100793A0A /* Home.swift in Sources */,
-				84CA683E2A636E4000793A0A /* Onboarding.swift in Sources */,
-				84CA68402A637D1500793A0A /* CircleGroubView.swift in Sources */,
-				84CA68262A63630700793A0A /* Love_CareApp.swift in Sources */,
+				843E2F3A2A64CC3400FA90EA /* DrawerView.swift in Sources */,
+				843E2F3D2A64CE9800FA90EA /* Cover.swift in Sources */,
+				843E2F2B2A64B00800FA90EA /* ContentView.swift in Sources */,
+				843E2F292A64B00800FA90EA /* NatGeo_AppApp.swift in Sources */,
+				843E2F402A64CEAD00FA90EA /* CoversData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		84CA682E2A63630900793A0A /* Debug */ = {
+		843E2F312A64B00E00FA90EA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -262,7 +252,7 @@
 			};
 			name = Debug;
 		};
-		84CA682F2A63630900793A0A /* Release */ = {
+		843E2F322A64B00E00FA90EA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -317,20 +307,19 @@
 			};
 			name = Release;
 		};
-		84CA68312A63630900793A0A /* Debug */ = {
+		843E2F342A64B00E00FA90EA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Love&Care/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"NatGeo App/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "NatGeo-App-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -338,7 +327,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Elkomey.Love-Care";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Elkomey.NatGeo-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -346,20 +335,19 @@
 			};
 			name = Debug;
 		};
-		84CA68322A63630900793A0A /* Release */ = {
+		843E2F352A64B00E00FA90EA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Love&Care/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"NatGeo App/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "NatGeo-App-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -367,7 +355,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Elkomey.Love-Care";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Elkomey.NatGeo-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -378,25 +366,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		84CA681D2A63630700793A0A /* Build configuration list for PBXProject "Love&Care" */ = {
+		843E2F202A64B00800FA90EA /* Build configuration list for PBXProject "NatGeo App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				84CA682E2A63630900793A0A /* Debug */,
-				84CA682F2A63630900793A0A /* Release */,
+				843E2F312A64B00E00FA90EA /* Debug */,
+				843E2F322A64B00E00FA90EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		84CA68302A63630900793A0A /* Build configuration list for PBXNativeTarget "Love&Care" */ = {
+		843E2F332A64B00E00FA90EA /* Build configuration list for PBXNativeTarget "NatGeo App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				84CA68312A63630900793A0A /* Debug */,
-				84CA68322A63630900793A0A /* Release */,
+				843E2F342A64B00E00FA90EA /* Debug */,
+				843E2F352A64B00E00FA90EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 84CA681A2A63630700793A0A /* Project object */;
+	rootObject = 843E2F1D2A64B00800FA90EA /* Project object */;
 }
