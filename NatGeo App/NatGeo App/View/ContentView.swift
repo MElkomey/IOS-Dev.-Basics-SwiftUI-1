@@ -76,10 +76,22 @@ struct ContentView: View {
                 }
             })
             )
+            //drawer view
             .overlay(alignment: .topTrailing) {
                 DrawerView(index: $coverIndex)
                     .padding(.top,15)
             }
+            //control view
+            .overlay(alignment: .bottom) {
+                ControlView(scale: $imageScale, offset:$imageOffset )
+            }
+           //pannel view
+            .overlay(alignment: .top) {
+                PannelView(scale: imageScale, offset: imageOffset)
+                    .offset(y: -50)
+                    .padding()
+            }
+        
     }
 }
 
@@ -87,6 +99,6 @@ struct ContentView: View {
 //struct ContentView_Previews: PreviewProvider {
 //    static var previews: some View {
 //        ContentView()
-//           // .preferredColorScheme(.dark)
+//            .preferredColorScheme(.dark)
 //    }
 //}

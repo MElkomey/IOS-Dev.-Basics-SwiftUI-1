@@ -7,33 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		843E2F292A64B00800FA90EA /* NatGeo_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843E2F282A64B00800FA90EA /* NatGeo_AppApp.swift */; };
-		843E2F2B2A64B00800FA90EA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843E2F2A2A64B00800FA90EA /* ContentView.swift */; };
-		843E2F2D2A64B00E00FA90EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 843E2F2C2A64B00E00FA90EA /* Assets.xcassets */; };
-		843E2F302A64B00E00FA90EA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 843E2F2F2A64B00E00FA90EA /* Preview Assets.xcassets */; };
-		843E2F3A2A64CC3400FA90EA /* DrawerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843E2F392A64CC3400FA90EA /* DrawerView.swift */; };
-		843E2F3D2A64CE9800FA90EA /* Cover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843E2F3C2A64CE9800FA90EA /* Cover.swift */; };
-		843E2F402A64CEAD00FA90EA /* CoversData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843E2F3F2A64CEAD00FA90EA /* CoversData.swift */; };
-		8470B7AE2A65E75D007E6336 /* ControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8470B7AD2A65E75D007E6336 /* ControlView.swift */; };
-		8470B7B02A65EE6A007E6336 /* PannelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8470B7AF2A65EE6A007E6336 /* PannelView.swift */; };
+		843ACD032A65F757001B4D8F /* Cars_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843ACD022A65F757001B4D8F /* Cars_AppApp.swift */; };
+		843ACD052A65F757001B4D8F /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843ACD042A65F757001B4D8F /* OnboardingView.swift */; };
+		843ACD072A65F759001B4D8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 843ACD062A65F759001B4D8F /* Assets.xcassets */; };
+		843ACD0A2A65F759001B4D8F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 843ACD092A65F759001B4D8F /* Preview Assets.xcassets */; };
+		843ACD112A65F874001B4D8F /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843ACD102A65F874001B4D8F /* Car.swift */; };
+		843ACD132A65F9FE001B4D8F /* CarsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843ACD122A65F9FE001B4D8F /* CarsData.swift */; };
+		843ACD192A65FB46001B4D8F /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843ACD182A65FB46001B4D8F /* CardView.swift */; };
+		843ACD1B2A66126A001B4D8F /* CellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843ACD1A2A661269001B4D8F /* CellView.swift */; };
+		843ACD1D2A6614D2001B4D8F /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843ACD1C2A6614D2001B4D8F /* ListView.swift */; };
+		843ACD1F2A661AC0001B4D8F /* DetailedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843ACD1E2A661AC0001B4D8F /* DetailedView.swift */; };
+		843ACD212A661F9C001B4D8F /* DetailsHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843ACD202A661F9C001B4D8F /* DetailsHeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		843E2F252A64B00800FA90EA /* NatGeo App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NatGeo App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		843E2F282A64B00800FA90EA /* NatGeo_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NatGeo_AppApp.swift; sourceTree = "<group>"; };
-		843E2F2A2A64B00800FA90EA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		843E2F2C2A64B00E00FA90EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		843E2F2F2A64B00E00FA90EA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		843E2F362A64B0F100FA90EA /* NatGeo-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "NatGeo-App-Info.plist"; sourceTree = SOURCE_ROOT; };
-		843E2F392A64CC3400FA90EA /* DrawerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawerView.swift; sourceTree = "<group>"; };
-		843E2F3C2A64CE9800FA90EA /* Cover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cover.swift; sourceTree = "<group>"; };
-		843E2F3F2A64CEAD00FA90EA /* CoversData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoversData.swift; sourceTree = "<group>"; };
-		8470B7AD2A65E75D007E6336 /* ControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlView.swift; sourceTree = "<group>"; };
-		8470B7AF2A65EE6A007E6336 /* PannelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PannelView.swift; sourceTree = "<group>"; };
+		843ACCFF2A65F757001B4D8F /* Cars App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cars App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		843ACD022A65F757001B4D8F /* Cars_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cars_AppApp.swift; sourceTree = "<group>"; };
+		843ACD042A65F757001B4D8F /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		843ACD062A65F759001B4D8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		843ACD092A65F759001B4D8F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		843ACD102A65F874001B4D8F /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		843ACD122A65F9FE001B4D8F /* CarsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarsData.swift; sourceTree = "<group>"; };
+		843ACD182A65FB46001B4D8F /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		843ACD1A2A661269001B4D8F /* CellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellView.swift; sourceTree = "<group>"; };
+		843ACD1C2A6614D2001B4D8F /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		843ACD1E2A661AC0001B4D8F /* DetailedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedView.swift; sourceTree = "<group>"; };
+		843ACD202A661F9C001B4D8F /* DetailsHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsHeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		843E2F222A64B00800FA90EA /* Frameworks */ = {
+		843ACCFC2A65F756001B4D8F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -43,115 +46,116 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		843E2F1C2A64B00800FA90EA = {
+		843ACCF62A65F756001B4D8F = {
 			isa = PBXGroup;
 			children = (
-				843E2F272A64B00800FA90EA /* NatGeo App */,
-				843E2F262A64B00800FA90EA /* Products */,
+				843ACD012A65F757001B4D8F /* Cars App */,
+				843ACD002A65F757001B4D8F /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		843E2F262A64B00800FA90EA /* Products */ = {
+		843ACD002A65F757001B4D8F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				843E2F252A64B00800FA90EA /* NatGeo App.app */,
+				843ACCFF2A65F757001B4D8F /* Cars App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		843E2F272A64B00800FA90EA /* NatGeo App */ = {
+		843ACD012A65F757001B4D8F /* Cars App */ = {
 			isa = PBXGroup;
 			children = (
-				843E2F3E2A64CE9C00FA90EA /* Data */,
-				843E2F3B2A64CE8400FA90EA /* Model */,
-				843E2F382A64CC1700FA90EA /* Components */,
-				843E2F372A64CC0D00FA90EA /* View */,
-				843E2F362A64B0F100FA90EA /* NatGeo-App-Info.plist */,
-				843E2F2C2A64B00E00FA90EA /* Assets.xcassets */,
-				843E2F2E2A64B00E00FA90EA /* Preview Content */,
+				843ACD172A65FAA0001B4D8F /* View */,
+				843ACD162A65FA98001B4D8F /* Components */,
+				843ACD152A65FA93001B4D8F /* Data */,
+				843ACD142A65FA8D001B4D8F /* Model */,
+				843ACD062A65F759001B4D8F /* Assets.xcassets */,
+				843ACD082A65F759001B4D8F /* Preview Content */,
 			);
-			path = "NatGeo App";
+			path = "Cars App";
 			sourceTree = "<group>";
 		};
-		843E2F2E2A64B00E00FA90EA /* Preview Content */ = {
+		843ACD082A65F759001B4D8F /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				843E2F2F2A64B00E00FA90EA /* Preview Assets.xcassets */,
+				843ACD092A65F759001B4D8F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		843E2F372A64CC0D00FA90EA /* View */ = {
+		843ACD142A65FA8D001B4D8F /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				843E2F282A64B00800FA90EA /* NatGeo_AppApp.swift */,
-				843E2F2A2A64B00800FA90EA /* ContentView.swift */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		843E2F382A64CC1700FA90EA /* Components */ = {
-			isa = PBXGroup;
-			children = (
-				843E2F392A64CC3400FA90EA /* DrawerView.swift */,
-				8470B7AD2A65E75D007E6336 /* ControlView.swift */,
-				8470B7AF2A65EE6A007E6336 /* PannelView.swift */,
-			);
-			path = Components;
-			sourceTree = "<group>";
-		};
-		843E2F3B2A64CE8400FA90EA /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				843E2F3C2A64CE9800FA90EA /* Cover.swift */,
+				843ACD102A65F874001B4D8F /* Car.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
 		};
-		843E2F3E2A64CE9C00FA90EA /* Data */ = {
+		843ACD152A65FA93001B4D8F /* Data */ = {
 			isa = PBXGroup;
 			children = (
-				843E2F3F2A64CEAD00FA90EA /* CoversData.swift */,
+				843ACD122A65F9FE001B4D8F /* CarsData.swift */,
 			);
 			path = Data;
+			sourceTree = "<group>";
+		};
+		843ACD162A65FA98001B4D8F /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				843ACD182A65FB46001B4D8F /* CardView.swift */,
+				843ACD1A2A661269001B4D8F /* CellView.swift */,
+				843ACD202A661F9C001B4D8F /* DetailsHeaderView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		843ACD172A65FAA0001B4D8F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				843ACD022A65F757001B4D8F /* Cars_AppApp.swift */,
+				843ACD042A65F757001B4D8F /* OnboardingView.swift */,
+				843ACD1C2A6614D2001B4D8F /* ListView.swift */,
+				843ACD1E2A661AC0001B4D8F /* DetailedView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		843E2F242A64B00800FA90EA /* NatGeo App */ = {
+		843ACCFE2A65F756001B4D8F /* Cars App */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 843E2F332A64B00E00FA90EA /* Build configuration list for PBXNativeTarget "NatGeo App" */;
+			buildConfigurationList = 843ACD0D2A65F759001B4D8F /* Build configuration list for PBXNativeTarget "Cars App" */;
 			buildPhases = (
-				843E2F212A64B00800FA90EA /* Sources */,
-				843E2F222A64B00800FA90EA /* Frameworks */,
-				843E2F232A64B00800FA90EA /* Resources */,
+				843ACCFB2A65F756001B4D8F /* Sources */,
+				843ACCFC2A65F756001B4D8F /* Frameworks */,
+				843ACCFD2A65F756001B4D8F /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "NatGeo App";
-			productName = "NatGeo App";
-			productReference = 843E2F252A64B00800FA90EA /* NatGeo App.app */;
+			name = "Cars App";
+			productName = "Cars App";
+			productReference = 843ACCFF2A65F757001B4D8F /* Cars App.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		843E2F1D2A64B00800FA90EA /* Project object */ = {
+		843ACCF72A65F756001B4D8F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1320;
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
-					843E2F242A64B00800FA90EA = {
+					843ACCFE2A65F756001B4D8F = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
 				};
 			};
-			buildConfigurationList = 843E2F202A64B00800FA90EA /* Build configuration list for PBXProject "NatGeo App" */;
+			buildConfigurationList = 843ACCFA2A65F756001B4D8F /* Build configuration list for PBXProject "Cars App" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -159,47 +163,49 @@
 				en,
 				Base,
 			);
-			mainGroup = 843E2F1C2A64B00800FA90EA;
-			productRefGroup = 843E2F262A64B00800FA90EA /* Products */;
+			mainGroup = 843ACCF62A65F756001B4D8F;
+			productRefGroup = 843ACD002A65F757001B4D8F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				843E2F242A64B00800FA90EA /* NatGeo App */,
+				843ACCFE2A65F756001B4D8F /* Cars App */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		843E2F232A64B00800FA90EA /* Resources */ = {
+		843ACCFD2A65F756001B4D8F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				843E2F302A64B00E00FA90EA /* Preview Assets.xcassets in Resources */,
-				843E2F2D2A64B00E00FA90EA /* Assets.xcassets in Resources */,
+				843ACD0A2A65F759001B4D8F /* Preview Assets.xcassets in Resources */,
+				843ACD072A65F759001B4D8F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		843E2F212A64B00800FA90EA /* Sources */ = {
+		843ACCFB2A65F756001B4D8F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				843E2F3A2A64CC3400FA90EA /* DrawerView.swift in Sources */,
-				843E2F3D2A64CE9800FA90EA /* Cover.swift in Sources */,
-				843E2F2B2A64B00800FA90EA /* ContentView.swift in Sources */,
-				843E2F292A64B00800FA90EA /* NatGeo_AppApp.swift in Sources */,
-				8470B7AE2A65E75D007E6336 /* ControlView.swift in Sources */,
-				843E2F402A64CEAD00FA90EA /* CoversData.swift in Sources */,
-				8470B7B02A65EE6A007E6336 /* PannelView.swift in Sources */,
+				843ACD212A661F9C001B4D8F /* DetailsHeaderView.swift in Sources */,
+				843ACD132A65F9FE001B4D8F /* CarsData.swift in Sources */,
+				843ACD052A65F757001B4D8F /* OnboardingView.swift in Sources */,
+				843ACD1B2A66126A001B4D8F /* CellView.swift in Sources */,
+				843ACD1D2A6614D2001B4D8F /* ListView.swift in Sources */,
+				843ACD1F2A661AC0001B4D8F /* DetailedView.swift in Sources */,
+				843ACD032A65F757001B4D8F /* Cars_AppApp.swift in Sources */,
+				843ACD112A65F874001B4D8F /* Car.swift in Sources */,
+				843ACD192A65FB46001B4D8F /* CardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		843E2F312A64B00E00FA90EA /* Debug */ = {
+		843ACD0B2A65F759001B4D8F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -260,7 +266,7 @@
 			};
 			name = Debug;
 		};
-		843E2F322A64B00E00FA90EA /* Release */ = {
+		843ACD0C2A65F759001B4D8F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -315,19 +321,19 @@
 			};
 			name = Release;
 		};
-		843E2F342A64B00E00FA90EA /* Debug */ = {
+		843ACD0E2A65F759001B4D8F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"NatGeo App/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Cars App/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "NatGeo-App-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -335,7 +341,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Elkomey.NatGeo-App";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Elkomey.Cars-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -343,19 +349,19 @@
 			};
 			name = Debug;
 		};
-		843E2F352A64B00E00FA90EA /* Release */ = {
+		843ACD0F2A65F759001B4D8F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"NatGeo App/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Cars App/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "NatGeo-App-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -363,7 +369,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Elkomey.NatGeo-App";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Elkomey.Cars-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -374,25 +380,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		843E2F202A64B00800FA90EA /* Build configuration list for PBXProject "NatGeo App" */ = {
+		843ACCFA2A65F756001B4D8F /* Build configuration list for PBXProject "Cars App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				843E2F312A64B00E00FA90EA /* Debug */,
-				843E2F322A64B00E00FA90EA /* Release */,
+				843ACD0B2A65F759001B4D8F /* Debug */,
+				843ACD0C2A65F759001B4D8F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		843E2F332A64B00E00FA90EA /* Build configuration list for PBXNativeTarget "NatGeo App" */ = {
+		843ACD0D2A65F759001B4D8F /* Build configuration list for PBXNativeTarget "Cars App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				843E2F342A64B00E00FA90EA /* Debug */,
-				843E2F352A64B00E00FA90EA /* Release */,
+				843ACD0E2A65F759001B4D8F /* Debug */,
+				843ACD0F2A65F759001B4D8F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 843E2F1D2A64B00800FA90EA /* Project object */;
+	rootObject = 843ACCF72A65F756001B4D8F /* Project object */;
 }
