@@ -9,7 +9,6 @@ import SwiftUI
 
 struct OnboardingView: View {
     //properties
-    
     //body
     var body: some View {
         TabView{

@@ -29,7 +29,7 @@ struct DetailedView: View {
                         .multilineTextAlignment(.leading)
                         .lineLimit(3)
                     //car model
-                    Text("car Model")
+                    ModelsView(car: car)
                     //descreption
                     Text("Learn more about \(car.title)")
                         .font(.title2)
@@ -39,18 +39,34 @@ struct DetailedView: View {
                         .font(.footnote)
                         .multilineTextAlignment(.leading)
                     //links
-                    Text("Link to wekibidia")
+                    FooterView()//:GroupBox
                 }//:VStack
                 .padding(.horizontal,15)
+                .padding(.bottom,40)
+                .frame(maxWidth:620)
             }//:VStack
         }//:ScrollView
+        .ignoresSafeArea()
     }
 }
 
 //preview
 //struct DetailedView_Previews: PreviewProvider {
 //    static var previews: some View {
-//        DetailedView(car: carsData[0])
+//        DetailedView(car: carsData[7])
+//          //  .preferredColorScheme(.dark)
 //    }
 //}
 
+
+struct FooterView: View {
+    var body: some View {
+        GroupBox(){
+            HStack{
+                Link("Source: wikipedia", destination:URL(string: "https://www.wikipedia.org")!)
+                Spacer()
+                Image(systemName: "arrow.up.right.square")
+            }//:HStack
+        }
+    }
+}

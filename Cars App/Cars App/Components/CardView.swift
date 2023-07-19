@@ -9,6 +9,7 @@ import SwiftUI
 
 struct CardView: View {
     //properties
+    @AppStorage("isOnboarding") var isOnboarding :Bool = true
     var car :Car
     @State var isAnimating :Bool = false
     //body
@@ -31,7 +32,7 @@ struct CardView: View {
                 .lineLimit(2)
                 .padding()
             Button {
-                //do some action
+                isOnboarding = false
             } label: {
                 Image(systemName: "arrow.right.circle")
                 Text("Start")
