@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		843D1E5D2A677AB50010B7DF /* Cinema_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843D1E5C2A677AB50010B7DF /* Cinema_AppApp.swift */; };
+		843D1E5F2A677AB50010B7DF /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843D1E5E2A677AB50010B7DF /* MainView.swift */; };
+		843D1E612A677AD00010B7DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 843D1E602A677AD00010B7DF /* Assets.xcassets */; };
+		843D1E642A677AD00010B7DF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 843D1E632A677AD00010B7DF /* Preview Assets.xcassets */; };
+		843D1E6E2A677B1C0010B7DF /* locations.json in Resources */ = {isa = PBXBuildFile; fileRef = 843D1E6A2A677B1B0010B7DF /* locations.json */; };
+		843D1E6F2A677B1C0010B7DF /* covers.json in Resources */ = {isa = PBXBuildFile; fileRef = 843D1E6B2A677B1B0010B7DF /* covers.json */; };
+		843D1E702A677B1C0010B7DF /* movies.json in Resources */ = {isa = PBXBuildFile; fileRef = 843D1E6C2A677B1B0010B7DF /* movies.json */; };
+		843D1E712A677B1C0010B7DF /* trailers.json in Resources */ = {isa = PBXBuildFile; fileRef = 843D1E6D2A677B1C0010B7DF /* trailers.json */; };
+		843D1E7C2A677B800010B7DF /* top-gun-maverick.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 843D1E742A677B800010B7DF /* top-gun-maverick.mp4 */; };
+		843D1E7D2A677B800010B7DF /* uncharted.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 843D1E752A677B800010B7DF /* uncharted.mp4 */; };
+		843D1E7E2A677B800010B7DF /* morbius.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 843D1E762A677B800010B7DF /* morbius.mp4 */; };
+		843D1E7F2A677B800010B7DF /* sonic-the-hedgehog.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 843D1E772A677B800010B7DF /* sonic-the-hedgehog.mp4 */; };
+		843D1E802A677B800010B7DF /* jurassic-world-dominion.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 843D1E782A677B800010B7DF /* jurassic-world-dominion.mp4 */; };
+		843D1E812A677B800010B7DF /* moonfall.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 843D1E792A677B800010B7DF /* moonfall.mp4 */; };
+		843D1E822A677B800010B7DF /* minions-the-rise-of-gru.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 843D1E7A2A677B800010B7DF /* minions-the-rise-of-gru.mp4 */; };
+		843D1E832A677B800010B7DF /* men-in-black.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 843D1E7B2A677B800010B7DF /* men-in-black.mp4 */; };
+		843D1E862A677F8F0010B7DF /* BrowserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843D1E852A677F8F0010B7DF /* BrowserView.swift */; };
+		843D1E882A677F9A0010B7DF /* TrailerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843D1E872A677F9A0010B7DF /* TrailerView.swift */; };
+		843D1E8A2A677FAA0010B7DF /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843D1E892A677FAA0010B7DF /* MapView.swift */; };
+		843D1E8C2A677FB50010B7DF /* GalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843D1E8B2A677FB50010B7DF /* GalleryView.swift */; };
+		843D1E8F2A6783150010B7DF /* CoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843D1E8E2A6783150010B7DF /* CoverView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		843D1E592A677AB50010B7DF /* Cinema App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cinema App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		843D1E5C2A677AB50010B7DF /* Cinema_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cinema_AppApp.swift; sourceTree = "<group>"; };
+		843D1E5E2A677AB50010B7DF /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		843D1E602A677AD00010B7DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		843D1E632A677AD00010B7DF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		843D1E6A2A677B1B0010B7DF /* locations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = locations.json; sourceTree = "<group>"; };
+		843D1E6B2A677B1B0010B7DF /* covers.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = covers.json; sourceTree = "<group>"; };
+		843D1E6C2A677B1B0010B7DF /* movies.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = movies.json; sourceTree = "<group>"; };
+		843D1E6D2A677B1C0010B7DF /* trailers.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = trailers.json; sourceTree = "<group>"; };
+		843D1E742A677B800010B7DF /* top-gun-maverick.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "top-gun-maverick.mp4"; sourceTree = "<group>"; };
+		843D1E752A677B800010B7DF /* uncharted.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = uncharted.mp4; sourceTree = "<group>"; };
+		843D1E762A677B800010B7DF /* morbius.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = morbius.mp4; sourceTree = "<group>"; };
+		843D1E772A677B800010B7DF /* sonic-the-hedgehog.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "sonic-the-hedgehog.mp4"; sourceTree = "<group>"; };
+		843D1E782A677B800010B7DF /* jurassic-world-dominion.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "jurassic-world-dominion.mp4"; sourceTree = "<group>"; };
+		843D1E792A677B800010B7DF /* moonfall.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = moonfall.mp4; sourceTree = "<group>"; };
+		843D1E7A2A677B800010B7DF /* minions-the-rise-of-gru.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "minions-the-rise-of-gru.mp4"; sourceTree = "<group>"; };
+		843D1E7B2A677B800010B7DF /* men-in-black.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "men-in-black.mp4"; sourceTree = "<group>"; };
+		843D1E852A677F8F0010B7DF /* BrowserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowserView.swift; sourceTree = "<group>"; };
+		843D1E872A677F9A0010B7DF /* TrailerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailerView.swift; sourceTree = "<group>"; };
+		843D1E892A677FAA0010B7DF /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		843D1E8B2A677FB50010B7DF /* GalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryView.swift; sourceTree = "<group>"; };
+		843D1E8E2A6783150010B7DF /* CoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		843D1E562A677AB50010B7DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		843D1E502A677AB40010B7DF = {
+			isa = PBXGroup;
+			children = (
+				843D1E5B2A677AB50010B7DF /* Cinema App */,
+				843D1E5A2A677AB50010B7DF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		843D1E5A2A677AB50010B7DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				843D1E592A677AB50010B7DF /* Cinema App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		843D1E5B2A677AB50010B7DF /* Cinema App */ = {
+			isa = PBXGroup;
+			children = (
+				843D1E8D2A6782FD0010B7DF /* Components */,
+				843D1E842A677F6B0010B7DF /* Views */,
+				843D1E732A677B800010B7DF /* Videos */,
+				843D1E722A677B250010B7DF /* Data */,
+				843D1E602A677AD00010B7DF /* Assets.xcassets */,
+				843D1E622A677AD00010B7DF /* Preview Content */,
+			);
+			path = "Cinema App";
+			sourceTree = "<group>";
+		};
+		843D1E622A677AD00010B7DF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				843D1E632A677AD00010B7DF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		843D1E722A677B250010B7DF /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				843D1E6B2A677B1B0010B7DF /* covers.json */,
+				843D1E6A2A677B1B0010B7DF /* locations.json */,
+				843D1E6C2A677B1B0010B7DF /* movies.json */,
+				843D1E6D2A677B1C0010B7DF /* trailers.json */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		843D1E732A677B800010B7DF /* Videos */ = {
+			isa = PBXGroup;
+			children = (
+				843D1E742A677B800010B7DF /* top-gun-maverick.mp4 */,
+				843D1E752A677B800010B7DF /* uncharted.mp4 */,
+				843D1E762A677B800010B7DF /* morbius.mp4 */,
+				843D1E772A677B800010B7DF /* sonic-the-hedgehog.mp4 */,
+				843D1E782A677B800010B7DF /* jurassic-world-dominion.mp4 */,
+				843D1E792A677B800010B7DF /* moonfall.mp4 */,
+				843D1E7A2A677B800010B7DF /* minions-the-rise-of-gru.mp4 */,
+				843D1E7B2A677B800010B7DF /* men-in-black.mp4 */,
+			);
+			path = Videos;
+			sourceTree = "<group>";
+		};
+		843D1E842A677F6B0010B7DF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				843D1E5C2A677AB50010B7DF /* Cinema_AppApp.swift */,
+				843D1E5E2A677AB50010B7DF /* MainView.swift */,
+				843D1E852A677F8F0010B7DF /* BrowserView.swift */,
+				843D1E872A677F9A0010B7DF /* TrailerView.swift */,
+				843D1E892A677FAA0010B7DF /* MapView.swift */,
+				843D1E8B2A677FB50010B7DF /* GalleryView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		843D1E8D2A6782FD0010B7DF /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				843D1E8E2A6783150010B7DF /* CoverView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		843D1E582A677AB50010B7DF /* Cinema App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 843D1E672A677AD00010B7DF /* Build configuration list for PBXNativeTarget "Cinema App" */;
+			buildPhases = (
+				843D1E552A677AB50010B7DF /* Sources */,
+				843D1E562A677AB50010B7DF /* Frameworks */,
+				843D1E572A677AB50010B7DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cinema App";
+			productName = "Cinema App";
+			productReference = 843D1E592A677AB50010B7DF /* Cinema App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		843D1E512A677AB40010B7DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					843D1E582A677AB50010B7DF = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 843D1E542A677AB40010B7DF /* Build configuration list for PBXProject "Cinema App" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 843D1E502A677AB40010B7DF;
+			productRefGroup = 843D1E5A2A677AB50010B7DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				843D1E582A677AB50010B7DF /* Cinema App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		843D1E572A677AB50010B7DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				843D1E802A677B800010B7DF /* jurassic-world-dominion.mp4 in Resources */,
+				843D1E7C2A677B800010B7DF /* top-gun-maverick.mp4 in Resources */,
+				843D1E642A677AD00010B7DF /* Preview Assets.xcassets in Resources */,
+				843D1E822A677B800010B7DF /* minions-the-rise-of-gru.mp4 in Resources */,
+				843D1E812A677B800010B7DF /* moonfall.mp4 in Resources */,
+				843D1E832A677B800010B7DF /* men-in-black.mp4 in Resources */,
+				843D1E7E2A677B800010B7DF /* morbius.mp4 in Resources */,
+				843D1E7D2A677B800010B7DF /* uncharted.mp4 in Resources */,
+				843D1E6F2A677B1C0010B7DF /* covers.json in Resources */,
+				843D1E702A677B1C0010B7DF /* movies.json in Resources */,
+				843D1E6E2A677B1C0010B7DF /* locations.json in Resources */,
+				843D1E7F2A677B800010B7DF /* sonic-the-hedgehog.mp4 in Resources */,
+				843D1E612A677AD00010B7DF /* Assets.xcassets in Resources */,
+				843D1E712A677B1C0010B7DF /* trailers.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		843D1E552A677AB50010B7DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				843D1E5F2A677AB50010B7DF /* MainView.swift in Sources */,
+				843D1E8F2A6783150010B7DF /* CoverView.swift in Sources */,
+				843D1E8C2A677FB50010B7DF /* GalleryView.swift in Sources */,
+				843D1E5D2A677AB50010B7DF /* Cinema_AppApp.swift in Sources */,
+				843D1E8A2A677FAA0010B7DF /* MapView.swift in Sources */,
+				843D1E882A677F9A0010B7DF /* TrailerView.swift in Sources */,
+				843D1E862A677F8F0010B7DF /* BrowserView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		843D1E652A677AD00010B7DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		843D1E662A677AD00010B7DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		843D1E682A677AD00010B7DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Cinema App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Elkomey.Cinema-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		843D1E692A677AD00010B7DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Cinema App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Elkomey.Cinema-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		843D1E542A677AB40010B7DF /* Build configuration list for PBXProject "Cinema App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				843D1E652A677AD00010B7DF /* Debug */,
+				843D1E662A677AD00010B7DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		843D1E672A677AD00010B7DF /* Build configuration list for PBXNativeTarget "Cinema App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				843D1E682A677AD00010B7DF /* Debug */,
+				843D1E692A677AD00010B7DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 843D1E512A677AB40010B7DF /* Project object */;
+}
